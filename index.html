@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Abhinaya Yasa · Full-stack Engineer</title>
+<meta name="description" content="Abhinaya Yasa, full-stack engineer. Builder of HOP, a concierge platform for healthcare staff, and its #ShiftCovered social launch campaign.">
+<meta property="og:title" content="Abhinaya Yasa · Full-stack Engineer">
+<meta property="og:description" content="I build software for people who work 12-hour shifts.">
+<meta property="og:image" content="assets/abhinaya.jpg">
+<meta name="theme-color" content="#0B6E5F">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230B6E5F'/%3E%3Ctext x='16' y='21.5' font-family='Arial,sans-serif' font-weight='800' font-size='14' text-anchor='middle' fill='white'%3EAY%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;600&display=swap">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<a class="skip" href="#top">Skip to content</a>
+
+<header class="top">
+  <div class="wrap">
+    <a class="mark" href="#top"><i>AY</i> Abhinaya Yasa</a>
+    <nav aria-label="Sections">
+      <a href="#about">About</a>
+      <a href="#work">Work</a>
+      <a href="#campaign">Campaign</a>
+      <a href="#log">Build log</a>
+      <a href="#stack">Stack</a>
+      <a class="keep" href="#contact">Contact</a>
+      <button class="theme-btn" type="button" aria-label="Toggle theme">☾</button>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <div class="wrap hero">
+    <div>
+      <p class="label">Full-stack engineer · Product builder · <span class="ph">City, State</span></p>
+      <h1>I build software for people who <span>work <span style="white-space:nowrap">12-hour</span> shifts.</span></h1>
+      <p class="lede">I designed and shipped HOP, a concierge platform that takes rides, meals, errands and family logistics off healthcare workers' plates. I built it from the Postgres schema to the iOS app, then planned the social campaign to put it in front of them.</p>
+      <div class="meta">
+        <span>React · TypeScript · Postgres · Serverless · Growth</span>
+        <span><span class="ph">Open to full-time roles</span></span>
+      </div>
+      <div class="cta">
+        <a class="btn primary" href="#work">See the HOP case study</a>
+        <a class="btn ghost" href="campaign.html">View the social campaign</a>
+      </div>
+    </div>
+
+    <figure class="portrait">
+      <div class="frame"><img src="assets/abhinaya.jpg" alt="Portrait of Abhinaya Yasa" width="900" height="720"></div>
+      <figcaption>Builder of HOP</figcaption>
+      <div class="status-pill"><span class="dot"></span>en_route · shipping HOP</div>
+    </figure>
+  </div>
+
+  <section id="about">
+    <div class="wrap">
+      <div class="sign"><b>→</b><span>About</span></div>
+      <h2 class="sec-title">An engineer who also does the launch.</h2>
+      <div class="about">
+        <div>
+          <p>I'm Abhinaya. I like problems where the people using the software are tired, busy and have no patience for a confusing screen. Nurses at the end of a night shift. Concierge staff juggling ten requests. Hospital admins who need one clear number.</p>
+          <p>On HOP I own the codebase end to end: database, auth, APIs, two web apps and an iOS build. I also care about what happens after the deploy, which is why I planned the social media campaign that introduces HOP to the people it was built for.</p>
+        </div>
+        <div class="roles">
+          <div class="role"><i>01</i><div><b>Build it</b><span>Full-stack product engineering, from SQL schema to a polished UI.</span></div></div>
+          <div class="role"><i>02</i><div><b>Make it trustworthy</b><span>Privacy-first features, plain-language status, audit trails.</span></div></div>
+          <div class="role"><i>03</i><div><b>Get it used</b><span>Brand, content strategy and campaigns that reach the real audience.</span></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="work">
+    <div class="wrap">
+      <div class="sign"><b>→</b><span>Featured work · 01</span></div>
+      <h2 class="sec-title">HOP · Hospitality On-Site Professionals</h2>
+      <p class="sec-intro">A login-gated concierge product a hospital can offer its staff, plus the public marketing site for the HOP brand. Built for Hudson Valley Concierge Service LLC. I own the codebase end to end.</p>
+
+      <div class="case">
+        <div class="col">
+          <div>
+            <h3>The problem</h3>
+            <p>Clinicians and nurses carry a "logistics tax" on top of their shifts: getting home, feeding the family, covering childcare, finding time for their own health. HOP gives them one place to ask for anything, with a real concierge team behind it.</p>
+          </div>
+          <aside class="board" aria-label="HOP request lifecycle">
+            <header><span>REQUEST · RIDE</span><span style="color:var(--amber)">LIVE</span></header>
+            <ol>
+              <li class="done"><span class="dot"></span>submitted<small>member</small></li>
+              <li class="done"><span class="dot"></span>received<small>concierge</small></li>
+              <li class="done"><span class="dot"></span>assigned<small>dispatch</small></li>
+              <li class="done"><span class="dot"></span>in_progress<small></small></li>
+              <li class="now rides"><span class="dot"></span>en_route<small>rides only · live location</small></li>
+              <li class="rides"><span class="dot"></span>arrived<small>rides only</small></li>
+              <li><span class="dot"></span>completed<small></small></li>
+            </ol>
+            <footer>The real dispatch lifecycle I built for HOP. Every change is staff-controlled and written to an audit trail; members see it in plain language.</footer>
+          </aside>
+          <div class="facts" role="list">
+            <div role="listitem"><strong>4</strong><span>user roles: member, concierge, admin, facility admin</span></div>
+            <div role="listitem"><strong>29</strong><span>Postgres tables in one idempotent schema</span></div>
+            <div role="listitem"><strong>2</strong><span>Vercel apps shipped from one repo and one database</span></div>
+            <div role="listitem"><strong>≤12</strong><span>serverless functions per app, by design</span></div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div>
+            <h3>What I built</h3>
+            <ul class="features">
+              <li><b>Auth from scratch</b><span>Email and password with bcrypt, server sessions, single-use reset links that sign you out everywhere.</span></li>
+              <li><b>Dispatch workflow</b><span>Assignment, a staff-only status lifecycle, full status history and dispatch notes.</span></li>
+              <li><b>Live ride location</b><span>Consent-first browser location sharing that stops the moment a ride leaves en_route.</span></li>
+              <li><b>Google Calendar</b><span>Real OAuth connection so members see their upcoming shifts and events on the dashboard.</span></li>
+              <li><b>Wellness check-ins</b><span>Private, voluntary self-reports with a one-tap "request support now" path. No scoring, no surveillance.</span></li>
+              <li><b>ConciergeHub</b><span>A separate staff portal for concierges and admins, with messaging, ratings and duty status.</span></li>
+              <li><b>Engagement layer</b><span>Member feed, rewards points ledger, family profiles and a facility portal for hospital admins.</span></li>
+              <li><b>Email, AI and iOS</b><span>Transactional email with Resend, a Claude-powered site assistant, and an iOS build with Capacitor.</span></li>
+            </ul>
+          </div>
+          <div class="constraint">
+            <p class="label">Working inside a constraint</p>
+            <p>The client chose to stay on Vercel's Hobby plan, which caps each project at 12 serverless functions. Instead of asking for an upgrade, I consolidated endpoints behind <code>?action=</code> dispatch so the whole platform, member app and staff portal, fits under the cap.</p>
+          </div>
+          <div>
+            <h3>Outcome</h3>
+            <p><span class="ph">Add a real result here: pilot hospital, number of members, requests handled, or feedback from staff.</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="campaign">
+    <div class="wrap">
+      <div class="sign amber"><b>✦</b><span>Featured work · 02</span></div>
+      <h2 class="sec-title">#ShiftCovered: the social launch for HOP.</h2>
+      <p class="sec-intro">Shipping the product was half the job. This campaign plan gets HOP in front of the nurses and clinicians it was built for, and the hospital leaders who decide to offer it.</p>
+
+      <div class="teaser">
+        <div class="copy">
+          <p class="label">Social media campaign · 6 weeks · 4 channels</p>
+          <h3>Clock out. We've got the rest.</h3>
+          <ul>
+            <li>Audience research: three personas, from night-shift RN to hospital HR lead</li>
+            <li>Four content pillars and a tease, launch, sustain calendar</li>
+            <li>Ready-to-post creative for Instagram, TikTok, LinkedIn and Facebook</li>
+            <li>A measurement plan wired to HOP's own sign-up funnel</li>
+          </ul>
+          <div class="cta" style="margin-top:0.5rem">
+            <a class="btn primary" href="campaign.html">Open the full campaign</a>
+          </div>
+        </div>
+        <div class="visual" aria-hidden="true">
+          <span class="tag">7:45 PM · post-handoff</span>
+          <span class="big">You worked 12 hours. Dinner's handled.</span>
+          <span class="tag">#ShiftCovered</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="log">
+    <div class="wrap">
+      <div class="sign"><b>↓</b><span>Build log</span></div>
+      <h2 class="sec-title">From first commit to a full platform in one season.</h2>
+      <p class="sec-intro">Milestones taken straight from the project's commit history in 2026.</p>
+      <div class="log">
+        <div class="log-row"><time>Jul 10</time><div><b>Site redesign wired to the new HOP login system</b><p>Fixed deep-linking on Vercel by splitting web and iOS builds, and removed dynamic API routes that the SPA rewrite silently swallowed.</p></div></div>
+        <div class="log-row"><time>Jul 11–13</time><div><b>Password reset, light and dark themes, Family Care, Wellness check-ins</b><p>Plus project-wide onboarding docs so any engineer (or AI agent) can pick up the code cold.</p></div></div>
+        <div class="log-row"><time>Jul 16</time><div><b>Admin dispatch, status history, live ride location, ConciergeHub</b><p>Introduced the concierge role and request messaging, then split the staff portal into its own deployment.</p></div></div>
+        <div class="log-row"><time>Jul 24</time><div><b>Phase 1: acceptance, ratings, messaging, duty status</b><p>With a full visual redesign of the member app.</p></div></div>
+        <div class="log-row"><time>Aug 9 – 27</time><div><b>HOP numbers, invited accounts, member rewards, Phase 2</b><p>Member engagement, staff tools and the Facility portal for hospital administrators.</p></div></div>
+        <div class="log-row"><time>Sep 6 – 12</time><div><b>HOP Feed for all four roles, member app redesign</b><p>Grouped navigation, real icons, block-grid pages, merged through a reviewed pull request.</p></div></div>
+        <div class="log-row"><time>Oct 4</time><div><b>Public site rebuilt from a leadership mockup, launch campaign planned</b><p>New HOP brand, official logo pack and one palette shared by the marketing site, the app and the #ShiftCovered creative.</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="stack">
+    <div class="wrap">
+      <div class="sign"><b>↘</b><span>Stack and skills</span></div>
+      <h2 class="sec-title">What I reach for, and have shipped to production.</h2>
+      <div class="skills">
+        <div><h3>Frontend</h3><div class="chips"><span>React 19</span><span>TypeScript</span><span>Vite</span><span>React Router 7</span><span>Hand-written CSS</span><span>Design systems</span><span>Accessibility</span></div></div>
+        <div><h3>Backend and data</h3><div class="chips"><span>Vercel Functions</span><span>Web-standard handlers</span><span>Neon Postgres</span><span>SQL schema design</span><span>Session auth</span><span>bcrypt</span></div></div>
+        <div><h3>Integrations</h3><div class="chips"><span>Google Calendar OAuth</span><span>Resend email</span><span>Claude API</span><span>Geolocation</span></div></div>
+        <div><h3>Mobile and delivery</h3><div class="chips"><span>Capacitor iOS</span><span>Vercel</span><span>Git and GitHub</span><span>ESLint</span><span>Multi-deploy branching</span></div></div>
+        <div><h3>Brand and growth</h3><div class="chips"><span>Campaign strategy</span><span>Audience personas</span><span>Content calendars</span><span>Copywriting</span><span>UTM tracking</span><span>Funnel analytics</span></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="approach">
+    <div class="wrap">
+      <div class="sign"><b>→</b><span>How I work</span></div>
+      <h2 class="sec-title">Three habits that show up in everything I make.</h2>
+      <div class="principles">
+        <div><h3>Design around the constraint</h3><p>A function cap, a one-person team, a shared database across two apps, a campaign with no ad budget to waste. I treat limits as the spec and build patterns that respect them.</p></div>
+        <div><h3>Write down the why</h3><p>Living architecture and scope docs record what is real, what is stubbed and what was tried and reversed, so nobody re-proposes a dead idea.</p></div>
+        <div><h3>Care is a feature</h3><p>Wellness data stays private, location sharing asks first and stops on its own, and campaign content never touches patient information. Trust is part of the product.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="more">
+    <div class="wrap">
+      <div class="sign"><b>↓</b><span>More</span></div>
+      <h2 class="sec-title">Other things I've made.</h2>
+      <div class="more">
+        <a class="card" href="campaign.html"><p class="label">Campaign · 2026</p><h3>#ShiftCovered launch campaign</h3><p>A six-week, four-channel social plan for HOP: personas, content pillars, a posting calendar timed to shift change, creative mockups and a KPI framework.</p><span class="go">Read the campaign →</span></a>
+        <article class="card"><p class="label">Brand · 2026</p><h3>HOP public site and brand system</h3><p>Rebuilt the HOP marketing site from a leadership mockup, with the official logo pack and a single color palette shared by the site, the app and the campaign.</p></article>
+        <article class="card draft"><p class="label">Education · <span class="ph">Year</span></p><h3><span class="ph">Degree, School</span></h3><p>Relevant coursework, awards or certifications.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="wrap">
+      <div class="sign"><b>✓</b><span>Contact</span></div>
+      <h2 class="sec-title">Let's build something people actually lean on.</h2>
+      <p class="sec-intro">I'm looking for <span class="ph">full-stack or product engineering roles</span>. The quickest way to reach me is email.</p>
+      <div class="contact-grid">
+        <div class="contact-item"><span class="label">Email</span><code id="c-email" class="ph">you@example.com</code><button type="button" data-copy="c-email">Copy</button></div>
+        <div class="contact-item"><span class="label">GitHub</span><a href="https://github.com/AbhinayaYasa"><code id="c-gh">github.com/AbhinayaYasa</code></a><button type="button" data-copy="c-gh">Copy</button></div>
+        <div class="contact-item"><span class="label">LinkedIn</span><code id="c-li" class="ph">linkedin.com/in/your-handle</code><button type="button" data-copy="c-li">Copy</button></div>
+      </div>
+      <div class="foot"><span>© <span id="year">2026</span> Abhinaya Yasa</span><span>Built by hand with HTML and CSS.</span></div>
+    </div>
+  </section>
+</main>
+
+<script src="assets/site.js"></script>
+</body>
+</html>
